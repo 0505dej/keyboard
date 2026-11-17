@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>2026 — Sound Keyboard</title><link rel="stylesheet" href="style.css?v=spaceplay1"></head>
+<body><main>
+<header><h1>2026<span> / sound archive</span></h1><span id="currentLetter" aria-label="Current letter">—</span></header>
+<div class="stage"><section id="player" aria-label="Video player">
+<video id="media" playsinline controls hidden></video>
+<div id="empty"><span class="mark" aria-hidden="true">✳</span><h2 id="emptyTitle">A year in sound.</h2><p id="emptyNote">Press a letter on your keyboard.</p></div>
+</section>
+<aside class="key-guide" aria-label="Available keyboard keys"><p>PRESS A KEY</p><div class="key-grid"><kbd data-key="A">A</kbd><kbd data-key="B">B</kbd><kbd data-key="E">E</kbd><kbd data-key="G">G</kbd><kbd data-key="I">I</kbd><kbd data-key="J">J</kbd><kbd data-key="L">L</kbd><kbd data-key="N">N</kbd><kbd data-key="P">P</kbd><kbd data-key="S">S</kbd><kbd data-key="V">V</kbd><kbd data-key="X">X</kbd></div></aside></div>
+<footer><p id="status" class="sr-only" role="status" aria-live="polite">Press a letter on your keyboard.</p><div><a id="sourceLink" target="_blank" rel="noopener" hidden>Open original ↗</a></div></footer>
+</main><script src="script.js?v=spaceplay1"></script></body>
+</html>
